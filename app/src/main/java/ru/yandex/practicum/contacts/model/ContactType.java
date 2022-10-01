@@ -11,6 +11,7 @@ public class ContactType {
     public static final String EMAIL = "email";
 
     public static String[] getContactTypes() {
+        return new String[]{ContactType.TELEGRAM, ContactType.WHATS_APP, ContactType.VIBER, ContactType.SIGNAL, ContactType.THREEMA, ContactType.PHONE, ContactType.EMAIL};
         // метод должен возвращать массив строк, перечисленных выше
     }
 }
